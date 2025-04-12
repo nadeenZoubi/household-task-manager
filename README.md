@@ -1,4 +1,4 @@
-# 🧹 Household Task Manager - Web Application
+#  Household Task Manager - Web Application
 
 This project is a collaborative **Household Task Management System**, developed as part of Homework 3 for the course **Web-Based Systems Development**. The application allows users to manage and assign household tasks, invite other users to join their household, and interact with tasks dynamically — all with a modern and responsive interface.
 
@@ -31,6 +31,24 @@ The project is built using **PHP**, **MySQL**, **AJAX**, **HTML**, **CSS**, and 
 - Smooth user experience with modals and dynamic content updates.
 
 ---
+# How to Run PHP Code
+
+## 1. Using a Local Server (like XAMPP / MAMP / WAMP)
+
+1. **Install XAMPP**  
+  (https://www.apachefriends.org/index.html)
+
+2. **Start Apache and MySQL** from the XAMPP Control Panel.
+
+3. **Save your PHP file in the `htdocs` folder**  
+   For example:  
+   `C:\xampp\htdocs\Household_Task_Manager`
+
+4. **Access the file via the browser:**  
+   Example URL:  
+   `http://localhost/Household_Task_Manager`
+
+---
 
 ## 🗂️ Project Structure
 
@@ -43,3 +61,4 @@ The project is built using **PHP**, **MySQL**, **AJAX**, **HTML**, **CSS**, and 
 ├── assets/            # Icons, images, and media (if any)
 ├── index.php          # Main entry page
 ├── db.sql             # MySQL database schema
+
