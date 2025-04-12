@@ -1,2 +1,45 @@
-# household-task-manager
-This is a web-based household task management system built as part of Homework 3 for the course Web-Based Systems Development  The system allows users to register, log in, and manage shared household tasks with other registered users in real time using modern web development tools and techniques.
+# 🧹 Household Task Manager - Web Application
+
+This project is a collaborative **Household Task Management System**, developed as part of Homework 3 for the course **Web-Based Systems Development**. The application allows users to manage and assign household tasks, invite other users to join their household, and interact with tasks dynamically — all with a modern and responsive interface.
+
+The project is built using **PHP**, **MySQL**, **AJAX**, **HTML**, **CSS**, and **Bootstrap**, and is intended to run on a local **XAMPP** server environment.
+
+---
+
+## ⚙️ Key Features
+
+### 🔐 User System
+- **Registration page** with real-time email availability check via **AJAX**.
+- Secure **login system** with session management.
+- Restricted access: all pages are protected unless the user is logged in.
+
+### 👥 Household Collaboration
+- Invite other registered users to your household.
+- **Autocomplete** email input when adding users, based on existing users in the database.
+- Modal-based form for inviting participants (no page reload).
+
+### ✅ Dynamic Task Management
+- **Add new tasks without refreshing the page**.
+- Automatically clear and reset form fields after task submission.
+- Assign a **responsible user** from the list of household members.
+- Mark tasks as completed with a checkbox — works instantly via AJAX.
+- Delete tasks dynamically with immediate feedback.
+
+### 📱 Responsive UI
+- Clean and intuitive design using **Bootstrap**.
+- Fully responsive for mobile, tablet, and desktop.
+- Smooth user experience with modals and dynamic content updates.
+
+---
+
+## 🗂️ Project Structure
+
+```bash
+/
+├── css/               # Custom CSS styles
+├── js/                # JavaScript and AJAX scripts
+├── includes/          # PHP includes (DB connection, session handlers, etc.)
+├── pages/             # Core application pages (login, register, dashboard, etc.)
+├── assets/            # Icons, images, and media (if any)
+├── index.php          # Main entry page
+├── db.sql             # MySQL database schema
