@@ -58,7 +58,7 @@ The project is built using **PHP**, **MySQL**, **AJAX**, **HTML**, **CSS**, and 
 ├── js/                # JavaScript and AJAX scripts
 ├── includes/          # PHP includes (DB connection, session handlers, etc.)
 ├── pages/             # Core application pages (login, register, dashboard, etc.)
-├── assets/            # Icons, images, and media (if any)
+├── assets/            # Icons, images
 ├── index.php          # Main entry page
 ├── db.sql             # MySQL database schema
 
