@@ -6,26 +6,26 @@ The project is built using **PHP**, **MySQL**, **AJAX**, **HTML**, **CSS**, and 
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
-### 🔐 User System
+### User System
 - **Registration page** with real-time email availability check via **AJAX**.
 - Secure **login system** with session management.
 - Restricted access: all pages are protected unless the user is logged in.
 
-### 👥 Household Collaboration
+###  Household Collaboration
 - Invite other registered users to your household.
 - **Autocomplete** email input when adding users, based on existing users in the database.
 - Modal-based form for inviting participants (no page reload).
 
-### ✅ Dynamic Task Management
+###  Dynamic Task Management
 - **Add new tasks without refreshing the page**.
 - Automatically clear and reset form fields after task submission.
 - Assign a **responsible user** from the list of household members.
 - Mark tasks as completed with a checkbox — works instantly via AJAX.
 - Delete tasks dynamically with immediate feedback.
 
-### 📱 Responsive UI
+###  Responsive UI
 - Clean and intuitive design using **Bootstrap**.
 - Fully responsive for mobile, tablet, and desktop.
 - Smooth user experience with modals and dynamic content updates.
@@ -50,7 +50,7 @@ The project is built using **PHP**, **MySQL**, **AJAX**, **HTML**, **CSS**, and 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 /
